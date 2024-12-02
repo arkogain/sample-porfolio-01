@@ -6,7 +6,7 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   return (
     <>
-      <header className="border-b border-foreground/20 shadow-sm">
+      <header className="fixed z-50 w-full border-b border-foreground/20 bg-background/10 shadow-sm backdrop-blur-sm">
         <div className="mx-auto flex max-w-screen-lg items-center justify-between px-6 py-4">
           <Link href="/">
             <div className="text-5xl font-bold text-fuchsia-700">AG.</div>

@@ -11,6 +11,9 @@ type RootLayoutProps = Readonly<{
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>ArkoGain-Portfolio</title>
+      </head>
       <body className="bg-[url('/bg2.png')] bg-cover bg-fixed bg-no-repeat">
         <ThemeProvider
           attribute="class"

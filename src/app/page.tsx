@@ -19,8 +19,11 @@ const page = () => {
         <div className="text-4xl font-semibold">
           I'M <span className="text-purple-600"> ARKO GAIN </span>{" "}
         </div>
-        <div className="motion-preset-typewriter-[27] text-4xl font-semibold motion-duration-2000">
-          I am a <span className="text-purple-600">Fullstack Developer.</span>
+        <div className="grid grid-flow-col place-items-center gap-2 text-4xl font-semibold">
+          I am a{" "}
+          <div className="motion-preset-typewriter-[20] text-4xl text-purple-600 motion-duration-[6000ms]">
+            Fullstack Developer.
+          </div>
         </div>
       </div>
 

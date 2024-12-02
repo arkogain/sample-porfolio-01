@@ -63,13 +63,13 @@ const skills = [
 const page = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:h-dvh py-12">
+      <div className="flex flex-col items-center justify-center gap-6 py-12 md:h-dvh md:flex-row">
         {/* left side start */}
         <div className="w-full">
-          <div className="text-5xl font-semibold text-center">
+          <div className="text-center text-5xl font-semibold">
             Know Who <span className="text-purple-600"> I'M </span>
           </div>
-          <div className="mt-8 text-xl font-[500] ">
+          <div className="mt-8 text-xl font-[500]">
             Hi everyone I am{" "}
             <span className="text-purple-600"> Arko Gain </span> from{" "}
             <span className="text-purple-600"> Kolkata, India. </span> <br /> I
@@ -80,7 +80,7 @@ const page = () => {
             <div className="">
               Apart from coding, some other activities that I love to do!
             </div>
-            <div className="flex items-center gap-2 mt-4">
+            <div className="mt-4 flex items-center gap-2">
               <ArrowRightToLine /> <span> Playing Games</span>
             </div>
             <div className="flex items-center gap-2">
@@ -94,7 +94,7 @@ const page = () => {
         {/* left side end */}
 
         {/* right side start */}
-        <div className="w-full flex justify-center">
+        <div className="flex w-full justify-center">
           <img src="/about.png" alt="" />
         </div>
         {/* right side end */}
@@ -102,28 +102,28 @@ const page = () => {
 
       {/* skill set start */}
 
-      <div className="text-center font-bold text-5xl mb-12">
+      <div className="mb-12 text-center text-5xl font-bold">
         Professional <span className="text-fuchsia-700"> Skillset </span>{" "}
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
         {skills.map((skill) => {
           return <SkillIcon key={skill.sId} info={skill} />;
         })}
       </div>
 
-      <div className="text-center font-bold text-5xl mt-[6rem] mb-12">
+      <div className="mb-12 mt-[6rem] text-center text-5xl font-bold">
         <span className="text-fuchsia-700">Tools</span> I use
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-[7rem] pb-[5rem]">
-        <div className="border hover:border-2 border-fuchsia-700 rounded-lg p-6 duration-500 hover:scale-110 hover:duration-500">
+      <div className="flex flex-col items-center justify-center gap-4 pb-[5rem] md:flex-row md:gap-[7rem]">
+        <div className="rounded-lg border border-fuchsia-700 p-6 duration-500 hover:scale-110 hover:border-2 hover:duration-500">
           <img src="/windows.svg" alt="" width={60} />
         </div>
-        <div className="border hover:border-2 border-fuchsia-700 rounded-lg p-6 duration-500 hover:scale-110 hover:duration-500">
+        <div className="rounded-lg border border-fuchsia-700 p-6 duration-500 hover:scale-110 hover:border-2 hover:duration-500">
           <img src="/vscode.svg" alt="" width={60} />
         </div>
-        <div className="border hover:border-2 border-fuchsia-700 rounded-lg p-6 duration-500 hover:scale-110 hover:duration-500">
+        <div className="rounded-lg border border-fuchsia-700 p-6 duration-500 hover:scale-110 hover:border-2 hover:duration-500">
           <img src="/vercel1.svg" alt="" width={60} />
         </div>
       </div>

@@ -11,7 +11,7 @@ type RootLayoutProps = Readonly<{
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-[url('/bg2.png')] bg-cover bg-no-repeat bg-fixed">
+      <body className="bg-[url('/bg2.png')] bg-cover bg-fixed bg-no-repeat">
         <ThemeProvider
           attribute="class"
           enableSystem={false}

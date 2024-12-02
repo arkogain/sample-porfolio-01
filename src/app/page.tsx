@@ -5,7 +5,7 @@ const page = () => {
   return (
     <>
       {/* hero start */}
-      <div className="h-[90dvh] flex justify-center items-center flex-col gap-4">
+      <div className="flex h-[90dvh] flex-col items-center justify-center gap-4">
         <div className="">
           <Avatar className="h-[10rem] w-[10rem]">
             <AvatarImage
@@ -19,7 +19,7 @@ const page = () => {
         <div className="text-4xl font-semibold">
           I'M <span className="text-purple-600"> ARKO GAIN </span>{" "}
         </div>
-        <div className="motion-preset-typewriter-[27] motion-duration-2000 text-4xl font-semibold">
+        <div className="motion-preset-typewriter-[27] text-4xl font-semibold motion-duration-2000">
           I am a <span className="text-purple-600">Fullstack Developer.</span>
         </div>
       </div>
@@ -27,46 +27,46 @@ const page = () => {
       {/* hero end */}
 
       {/* introdution start */}
-      <div className="flex  items-center gap-[10rem] h-dvh">
+      <div className="flex h-dvh items-center gap-[10rem]">
         <div className="w-full">
-          <div className="text-5xl flex justify-center font-semibold">
+          <div className="flex justify-center text-5xl font-semibold">
             LET ME
-            <span className="text-purple-600 mx-2"> INTRODUCE </span> MYSELF
+            <span className="mx-2 text-purple-600"> INTRODUCE </span> MYSELF
           </div>
-          <div className="text-xl mt-16">
+          <div className="mt-16 text-xl">
             I fell in love with programming and I have at least learnt
             something, I think… 🤷‍♂️
           </div>
-          <div className="text-xl mt-6">
+          <div className="mt-6 text-xl">
             I am fluent in{" "}
-            <span className="text-purple-600 font-bold italic">
+            <span className="font-bold italic text-purple-600">
               {" "}
               Javascript.{" "}
             </span>
           </div>
-          <div className="text-xl mt-6">
+          <div className="mt-6 text-xl">
             My field of Interest's are building new{" "}
-            <span className="text-purple-600 font-bold italic">
+            <span className="font-bold italic text-purple-600">
               {" "}
               Web Technologies and Products{" "}
             </span>{" "}
             and developing products with{" "}
-            <span className="text-purple-600 font-bold italic">
+            <span className="font-bold italic text-purple-600">
               {" "}
               Node.js{" "}
             </span>{" "}
             and{" "}
-            <span className="text-purple-600 font-bold italic">
+            <span className="font-bold italic text-purple-600">
               {" "}
               Modern Javascript Library and Frameworks{" "}
             </span>{" "}
             like{" "}
-            <span className="text-purple-600 font-bold italic">
+            <span className="font-bold italic text-purple-600">
               {" "}
               React.js
             </span>{" "}
             and
-            <span className="font-bold text-purple-600 italic"> Next.js</span>
+            <span className="font-bold italic text-purple-600"> Next.js</span>
           </div>
         </div>
         <div className="">
@@ -76,24 +76,24 @@ const page = () => {
       {/* introdution end */}
 
       {/* contact */}
-      <div className="flex justify-center items-center flex-col">
+      <div className="flex flex-col items-center justify-center">
         <div className="text-5xl font-semibold">FIND ME ON</div>
         <div className="mt-2">
           Feel free to <span className="text-purple-600"> connect </span> with
           me
         </div>
-        <div className="flex justify-center items-center gap-4 mt-6 mb-[6rem]">
-          <span className="bg-white rounded-full p-2 flex justify-center items-center hover:motion-preset-expand">
-            <Github className="text-purple-600 " size={24} />
+        <div className="mb-[6rem] mt-6 flex items-center justify-center gap-4">
+          <span className="flex items-center justify-center rounded-full bg-white p-2 hover:motion-preset-expand">
+            <Github className="text-purple-600" size={24} />
           </span>
 
-          <span className="bg-white rounded-full p-2 flex justify-center items-center hover:motion-preset-expand">
-            <Facebook className="text-purple-600 " size={24} />
+          <span className="flex items-center justify-center rounded-full bg-white p-2 hover:motion-preset-expand">
+            <Facebook className="text-purple-600" size={24} />
           </span>
-          <span className="bg-white rounded-full p-2 flex justify-center items-center hover:motion-preset-expand">
+          <span className="flex items-center justify-center rounded-full bg-white p-2 hover:motion-preset-expand">
             <Instagram className="text-purple-600" size={24} />
           </span>
-          <span className="bg-white rounded-full p-2 flex justify-center items-center hover:motion-preset-expand">
+          <span className="flex items-center justify-center rounded-full bg-white p-2 hover:motion-preset-expand">
             <Linkedin className="text-purple-600" size={24} />
           </span>
         </div>

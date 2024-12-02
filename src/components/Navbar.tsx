@@ -1,7 +1,5 @@
-import Link from "next/link";
-import DesktopNav from "./DesktopNav";
-import MobileNav from "./MobileNav";
 import { FileUser, House, MonitorCheck, User } from "lucide-react";
+import Link from "next/link";
 import DarkMode from "./DarkMode";
 import MobileMenu from "./MobileMenu";
 
